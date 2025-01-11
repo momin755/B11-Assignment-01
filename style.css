@@ -290,3 +290,42 @@ text-align: center;
 }
 
 /* Newsletter Styles */
+.newsletter{
+  margin: 80px 0;
+  padding: 80px 100px;
+  border-radius: 24px;
+background: rgb(198, 228, 214);
+}
+.newsletter-inner-section{
+  width: 750px;
+  margin: 0 auto;
+}
+.newsletter-form{
+  margin-top: 24px;
+}
+input[type="email"]{
+  box-sizing: border-box;
+border: none;
+border-radius: 8px 0px 0px 8px;
+background: rgb(255, 255, 255);
+padding: 18px 40px;
+margin-bottom: 32px;
+color: rgba(14, 14, 14, 0.3);
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+width: 600px;
+  margin-right: -5px;
+}
+.newsletter-btn{
+  border-radius: 0px 8px 8px 0px;
+background: rgb(0, 106, 80);
+  
+}
+.newsletter-form-desc{
+  color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+text-align: center;
+}
