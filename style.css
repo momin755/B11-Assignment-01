@@ -6,9 +6,11 @@
   box-sizing: border-box;
 }
 body {
-  margin: 0 160px;
   font-family: "Fira Sans", serif;
   background: #f5f5f5;
+}
+header,main{
+  margin: 0 160px;
 }
 /* Common Css Styles */
 .btn {
@@ -328,4 +330,38 @@ font-size: 16px;
 font-weight: 400;
 line-height: 19px;
 text-align: center;
+}
+
+/* Footer Styles */
+footer{
+  background: rgb(255, 255, 255);
+ text-align: center;
+ padding: 50px 0;
+  
+}
+.footer-title{
+  color: rgb(14, 14, 14);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+}
+
+footer hr{
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  margin: 32px 0px;
+}
+footer nav{
+  display: block;
+}
+footer nav ul{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+footer nav ul li{
+  list-style: none;
+}
+footer nav ul li a img{
+  width: 27px;
+  margin: 0 auto;
 }
