@@ -8,6 +8,7 @@
 body {
   margin: 0 160px;
   font-family: "Fira Sans", serif;
+  background: #f5f5f5;
 }
 /* Common Css Styles */
 .btn {
@@ -23,6 +24,21 @@ body {
 }
 .btn:hover {
   background: #000;
+}
+.section-title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.section-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 12px 0;
 }
 /* Header Css Styles */
 
@@ -54,9 +70,9 @@ nav {
 
 /* Banner Styles */
 .banner {
-    border-radius: 24px;
-background: rgb(198, 228, 214);
-margin: 20px 0 80px 0;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  margin: 40px 0 80px 0;
   padding: 80px;
   display: flex;
   justify-content: space-between;
@@ -79,4 +95,161 @@ margin: 20px 0 80px 0;
 }
 .banner-btn {
   background: rgb(0, 106, 80);
+}
+
+/* Main Styles */
+/* Pillar Section Styles */
+.pillars-card {
+  display: flex;
+  gap: 24px;
+  margin-top: 32px;
+}
+.pillars-card-container {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 24px;
+}
+.pillars-card-container img {
+  width: 53px;
+}
+.pillars-card-title {
+  margin: 15px 0;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.pillars-card-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* Vision Section Styles */
+.vision {
+  margin: 80px 0;
+}
+.vision-card {
+  display: flex;
+  gap: 24px;
+  margin: 32px 0;
+}
+.vision-card-container {
+  padding: 32px;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+.vision-card-container img{
+    width: 53px;
+}
+.vision-one{
+    background: rgba(84, 144, 245, 0.2);
+}
+.vision-two{
+    background: rgb(198, 228, 214);
+}
+.vision-three{
+    background: rgb(247, 235, 207);
+}
+.vision-card-title{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+margin-top: 25px;
+margin-bottom: 12px;
+}
+.vision-card-description{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+margin-bottom: 24px;
+}
+.vision-btn-one{
+    background: rgb(84, 144, 245);
+    padding: 11px 20px !important;
+}
+.vision-btn-two{
+    background: rgb(9, 161, 92);
+    padding: 11px 20px !important;
+}
+.vision-btn-three{
+    background: rgb(255, 194, 57);
+    padding: 11px 20px !important;
+}
+
+/* Recent News Section Styles */
+.recent-news{
+    margin: 80px 0;
+}
+.recent-news-img img{
+    border-radius: 24px;
+}
+.recent-news-card-section{
+  margin-top: 32px;
+}
+.recent-news-card{
+  display: flex;
+  padding: 48px;
+  gap: 32px ;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border-radius: 24px;
+  margin: 24px 0;
+}
+.recent-news-title{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+margin-bottom: 12px;
+}
+.recent-news-times{
+    margin: 12px 0;
+}
+.recent-news-times span{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+margin-right:12px;
+}
+.recent-news-description{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+margin-bottom: 32px;
+}
+.recent-news-btn{
+    background: rgb(0, 106, 80);
+    padding: 13px 26px 13px 26px;
+}
+
+/* Donate Styles */
+
+.donate-card{
+  box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+padding: 40px;
+}
+.donate-title{
+  color: rgba(14, 14, 14, 0.8);
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
 }
