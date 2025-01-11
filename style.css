@@ -9,7 +9,8 @@ body {
   font-family: "Fira Sans", serif;
   background: #f5f5f5;
 }
-header,main{
+header,
+main {
   margin: 0 160px;
 }
 /* Common Css Styles */
@@ -146,222 +147,252 @@ nav {
   box-sizing: border-box;
   border-radius: 16px;
 }
-.vision-card-container img{
-    width: 53px;
+.vision-card-container img {
+  width: 53px;
 }
-.vision-one{
-    background: rgba(84, 144, 245, 0.2);
+.vision-one {
+  background: rgba(84, 144, 245, 0.2);
 }
-.vision-two{
-    background: rgb(198, 228, 214);
+.vision-two {
+  background: rgb(198, 228, 214);
 }
-.vision-three{
-    background: rgb(247, 235, 207);
+.vision-three {
+  background: rgb(247, 235, 207);
 }
-.vision-card-title{
-    color: rgba(14, 14, 14, 0.8);
-font-family: Fira Sans;
-font-size: 20px;
-font-weight: 700;
-line-height: 24px;
-margin-top: 25px;
-margin-bottom: 12px;
+.vision-card-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 25px;
+  margin-bottom: 12px;
 }
-.vision-card-description{
-    color: rgba(14, 14, 14, 0.7);
-font-family: Fira Sans;
+.vision-card-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.vision-btn-one {
+  background: rgb(84, 144, 245);
+  padding: 11px 20px !important;
+}
+.vision-btn-two {
+  background: rgb(9, 161, 92);
+  padding: 11px 20px !important;
+}
+.vision-btn-three {
+  background: rgb(255, 194, 57);
+  padding: 11px 20px !important;
+}
+/* Blockquote Styles */
+.blockquote-section {
+  padding: 48px 24px 48px 24px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(14, 14, 14, 0.15);
+}
+
+blockquote{
+  color: rgba(14, 14, 14, 0.8);
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
-margin-bottom: 24px;
-}
-.vision-btn-one{
-    background: rgb(84, 144, 245);
-    padding: 11px 20px !important;
-}
-.vision-btn-two{
-    background: rgb(9, 161, 92);
-    padding: 11px 20px !important;
-}
-.vision-btn-three{
-    background: rgb(255, 194, 57);
-    padding: 11px 20px !important;
+background-image: url('assets/quote-bg.png');
+background-repeat: no-repeat;
+padding-top: 12px;
 }
 
+blockquote cite{
+  display: block;
+  color: rgba(14, 14, 14, 0.8);
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+margin:12px 0 4px 0px;
+}
+blockquote  p{
+  color: rgba(14, 14, 14, 0.6);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
 /* Recent News Section Styles */
-.recent-news{
-    margin: 80px 0;
+.recent-news {
+  margin: 80px 0;
 }
-.recent-news-img img{
-    border-radius: 24px;
+.recent-news-img img {
+  border-radius: 24px;
 }
-.recent-news-card-section{
+.recent-news-card-section {
   margin-top: 32px;
 }
-.recent-news-card{
+.recent-news-card {
   display: flex;
   padding: 48px;
-  gap: 32px ;
+  gap: 32px;
   justify-content: space-between;
   align-items: center;
   background: #fff;
   border-radius: 24px;
   margin: 24px 0;
 }
-.recent-news-title{
-    color: rgba(14, 14, 14, 0.8);
-font-family: Fira Sans;
-font-size: 32px;
-font-weight: 700;
-line-height: 38px;
-margin-bottom: 12px;
+.recent-news-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  margin-bottom: 12px;
 }
-.recent-news-times{
-    margin: 12px 0;
+.recent-news-times {
+  margin: 12px 0;
 }
-.recent-news-times span{
-    color: rgba(14, 14, 14, 0.7);
-font-family: Fira Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-margin-right:12px;
+.recent-news-times span {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-right: 12px;
 }
-.recent-news-description{
-    color: rgba(14, 14, 14, 0.7);
-font-family: Fira Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-margin-bottom: 32px;
+.recent-news-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 32px;
 }
-.recent-news-btn{
-    background: rgb(0, 106, 80);
-    padding: 13px 26px 13px 26px;
+.recent-news-btn {
+  background: rgb(0, 106, 80);
+  padding: 13px 26px 13px 26px;
 }
 
 /* Donate Styles */
-.donate-card-container{
+.donate-card-container {
   display: flex;
   gap: 24px;
   justify-content: center;
 }
-.donate-card{
+.donate-card {
   box-sizing: border-box;
-border: 1px solid rgba(14, 14, 14, 0.15);
-border-radius: 16px;
-background: rgb(255, 255, 255);
-padding:35px;
-transition: all .2s;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 35px;
+  transition: all 0.2s;
 }
-.donate-card:hover{
+.donate-card:hover {
   background: rgb(0, 106, 80);
 }
-.donate-card:hover .donate-title{
+.donate-card:hover .donate-title {
   color: #fff;
 }
-.donate-title{
+.donate-title {
   color: rgba(14, 14, 14, 0.8);
-font-size: 40px;
-font-weight: 700;
-line-height: 48px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
 }
-.card-bg{
+.card-bg {
   background: rgb(198, 228, 214);
 }
-.donate-form{
+.donate-form {
   margin-top: 32px;
   text-align: center;
 }
-input[type="number"]{
+input[type="number"] {
   box-sizing: border-box;
-border: none;
-border-radius: 16px;
-background: rgb(255, 255, 255);
-padding: 20px 40px 20px 40px;
-margin-bottom: 32px;
-color: rgba(14, 14, 14, 0.3);
-font-size: 20px;
-font-weight: 400;
-line-height: 24px;
-width: 1024px;
-text-align: center;
+  border: none;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 20px 40px 20px 40px;
+  margin-bottom: 32px;
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 1024px;
+  text-align: center;
 }
-.donate-btn{
+.donate-btn {
   background: rgb(0, 106, 80);
 }
 
 /* Newsletter Styles */
-.newsletter{
+.newsletter {
   margin: 80px 0;
   padding: 80px 100px;
   border-radius: 24px;
-background: rgb(198, 228, 214);
+  background: rgb(198, 228, 214);
 }
-.newsletter-inner-section{
+.newsletter-inner-section {
   width: 750px;
   margin: 0 auto;
 }
-.newsletter-form{
+.newsletter-form {
   margin-top: 24px;
 }
-input[type="email"]{
+input[type="email"] {
   box-sizing: border-box;
-border: none;
-border-radius: 8px 0px 0px 8px;
-background: rgb(255, 255, 255);
-padding: 18px 40px;
-margin-bottom: 32px;
-color: rgba(14, 14, 14, 0.3);
-font-size: 16px;
-font-weight: 400;
-line-height: 19px;
-width: 600px;
+  border: none;
+  border-radius: 8px 0px 0px 8px;
+  background: rgb(255, 255, 255);
+  padding: 18px 40px;
+  margin-bottom: 32px;
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  width: 600px;
   margin-right: -5px;
 }
-.newsletter-btn{
+.newsletter-btn {
   border-radius: 0px 8px 8px 0px;
-background: rgb(0, 106, 80);
-  
+  background: rgb(0, 106, 80);
 }
-.newsletter-form-desc{
+.newsletter-form-desc {
   color: rgba(14, 14, 14, 0.7);
-font-size: 16px;
-font-weight: 400;
-line-height: 19px;
-text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
 }
 
 /* Footer Styles */
-footer{
+footer {
   background: rgb(255, 255, 255);
- text-align: center;
- padding: 50px 0;
-  
+  text-align: center;
+  padding: 50px 0;
 }
-.footer-title{
+.footer-title {
   color: rgb(14, 14, 14);
   font-size: 32px;
   font-weight: 700;
   line-height: 38px;
 }
 
-footer hr{
+footer hr {
   border: 1px solid rgba(14, 14, 14, 0.1);
   margin: 32px 0px;
 }
-footer nav{
+footer nav {
   display: block;
 }
-footer nav ul{
+footer nav ul {
   display: flex;
   justify-content: center;
   gap: 24px;
 }
-footer nav ul li{
+footer nav ul li {
   list-style: none;
 }
-footer nav ul li a img{
+footer nav ul li a img {
   width: 27px;
   margin: 0 auto;
 }
