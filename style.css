@@ -197,29 +197,72 @@ nav {
   box-shadow: rgba(14, 14, 14, 0.15);
 }
 
-blockquote{
+blockquote {
   color: rgba(14, 14, 14, 0.8);
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-background-image: url('assets/quote-bg.png');
-background-repeat: no-repeat;
-padding-top: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  background-image: url("assets/quote-bg.png");
+  background-repeat: no-repeat;
+  padding-top: 18px;
 }
 
-blockquote cite{
+blockquote cite {
   display: block;
   color: rgba(14, 14, 14, 0.8);
-font-size: 20px;
-font-weight: 600;
-line-height: 24px;
-margin:12px 0 4px 0px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 12px 0 4px 0px;
 }
-blockquote  p{
+blockquote p {
   color: rgba(14, 14, 14, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+/* Opinion Styles */
+.opinion {
+  margin-top: 80px;
+}
+.question {
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 32px;
+  margin-top: 24px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  text-align-last: left;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 24px;
+}
+th {
+  color: rgb(14, 14, 14);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  background: rgb(198, 228, 214);
+}
+td{
+  color: rgb(14, 14, 14);
 font-size: 16px;
-font-weight: 400;
-line-height: 24px;
+font-weight: 500;
+line-height: 19px;
+}
+select{
+  color: rgb(14, 14, 14);
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+padding: 10px 14px 10px 14px;
+border: 1px solid rgb(14, 14, 14);
+border-radius: 4px;
+background: rgb(198, 228, 214);
 }
 /* Recent News Section Styles */
 .recent-news {
